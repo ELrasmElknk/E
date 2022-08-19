@@ -19,7 +19,7 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>مرحبا صديقي انا بوت تلجراف ميديا 
 
-👻 هذا هو بوت استخراج رابط تلجراف ميديا الخاص في سورس ايــثــون اختر ماتريد من الاسفل 
+👻 هذا هو بوت استخراج رابط تلجراف ميديا الخاص في سورس الرسام اختر ماتريد من الاسفل 
 👇 تسطيع استخراج 👇
 
 📽️ فيديوهات قصيره (ان لايتعدا حجمه 5MB).
@@ -32,19 +32,19 @@ async def start(client, message):
 👥 مجموعة الدعم.
 🚀 الاستخراج السريع .
 
-✍️هذا هو بوت استخراج رابط تلجراف ميديا الخاص ب سورس ايــثــون
+✍️هذا هو بوت استخراج رابط تلجراف ميديا الخاص ب سورس الرسام
 ارسل لي اي شئ تريده لاجعله رابط ්😝
 
-هل تحتاج لل المساعدة راسل المطور @TTTLL0</b>""",   
+هل تحتاج لل المساعدة راسل المطور @Mahmod777777</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🌷Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "✨قناتنا", url="https://t.me/EITHON1"),
+                                            "✨قناتنا", url="https://t.me/EL_RASA"),
                                          InlineKeyboardButton(
 
-                                            "قناتنا على اليوتيوب", url="https://youtube.com/channel/UC-zRRPaD5kTKFXd-Io3mVXw")
+                                            "جٌروُبِ ألـرسُأمہ", url="https://t.me/ELRSAM11")
                                     ]]
                             ),
             disable_web_page_preview=True,        
@@ -59,9 +59,9 @@ async def help(client, message):
 
 فقط ارسل صوره او فيديو قصير او متحركه وسوف احوله الى رابط تلجراف .🎉
 
-☘️ المبرمج : @TTTLL0
+☘️ المبرمج : @Mahmod777777
 
-@EITHON1</b>""",
+@EL_RASA</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -86,7 +86,7 @@ async def about(client, message):
 
 <b>♻️اصدار بايروجرام 1.4.16:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>@EITHON1</b>""",
+<b>@EL_RASA</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -108,7 +108,7 @@ async def telegraphphoto(client, message):
     except:
         await msg.edit_text("ارسل صوره حجمها اقل من 5mb!") 
     else:
-        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin  @EITHON1**',
+        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin  @EL_RASA**',
             disable_web_page_preview=False,
         )
     finally:
@@ -140,7 +140,7 @@ async def telegraphgif(client, message):
     except:
         await msg.edit_text("Gif size should be less than 5mb!") 
     else:
-        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin @EITHON1**',
+        await msg.edit_text(f'**تم استخراج رابط تلجراف ميديا بنجاح!\n\n👻https://telegra.ph{response[0]}\n\nJoin @EL_RASA**',
             disable_web_page_preview=False,
         )
     finally:
@@ -162,7 +162,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @EITHON1
+Join @EL_RASA
 """
 )
 
